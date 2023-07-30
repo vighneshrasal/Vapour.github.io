@@ -80,12 +80,34 @@
         padding-left: 0px;
         padding-top: 7px;
     }
+
+    .footer a{
+    font-size: 10px;
+    }
+
+    .instagram a img{
+    height: 23px;
+    padding-right: 7px;
+    }
 } 
 
 @media screen and (max-width: 281px){
+    .logo{
+        font-size: 30px;
+        text-shadow: 2px 2px black;
+    }
+
+    .nav-left ul{
+        margin: 0px;
+    }
+
+    .nav-left ul li{
+        font-size: 15px;
+        margin: 0 8px;
+    }
+
     .form-input{
         width: 120px;
-        /* margin-top: 7px; */
         font-size: 11px;
     }
 
@@ -93,6 +115,14 @@
         font-size: 11px;
         width: 45px;
         padding-left: 5px;
+    }
+
+    #remove-for-fold{
+        display: none;
+    }
+
+    .footer a{
+        font-size: 14px;
     }
 }
 
