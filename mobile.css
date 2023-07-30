@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .form-input{
+        width: 150px;
+        margin-top: 7px;
+        font-size: 13px;
+    }
+
+    .btn{
+        font-size: 13px;
+    }
+
+    .logo{
+        font-size: 35px;
+        text-shadow: 1.5px 1.5px black;
+    }
+
+    .nav-left{
+        text-align: center;
+    }
+
+    .nav-left ul{
+        margin: 0 13px;
+    }
+
+    .nav-left ul li{
+        font-size: 15px;
+        margin: 0 10px;
+        
+    }
+
+    .main-content-home{
+        height: 275px;
+    }
+
+    .tagline{
+        width: 100vw;
+        padding-left: 15px;
+        padding-top: 25px;
+    }
+
+    .tagline h1{
+        font-size: 40px;
+    }
+
+    .tagline p{
+        font-size: 20px;
+    }
+
+    .tagline button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 15px;
+    }
+
+    .home-image{
+        display: none;
+    }
+
+    .home-articles{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .articles h1{
+        font-size: 20px;
+    }
+
+    .home-article{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .home-article-content{
+        padding-left: 0px;
+        padding-top: 7px;
+    }
+} 
+
+@media screen and (max-width: 281px){
+    .form-input{
+        width: 120px;
+        /* margin-top: 7px; */
+        font-size: 11px;
+    }
+
+    .btn{
+        font-size: 11px;
+        width: 45px;
+        padding-left: 5px;
+    }
+}
+
