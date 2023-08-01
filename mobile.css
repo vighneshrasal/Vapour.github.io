@@ -1,128 +1,145 @@
 @media screen and (max-width: 1200px) {
-    .navigation{
+    .navigation {
         flex-direction: column;
         margin-bottom: 20px;
     }
 
-    .form-input{
+    .form-input {
         width: 150px;
         margin-top: 7px;
         font-size: 13px;
     }
 
-    .btn{
+    .btn {
         font-size: 13px;
     }
 
-    .logo{
+    .logo {
         font-size: 35px;
         text-shadow: 1.5px 1.5px black;
     }
 
-    .nav-left{
+    .nav-left {
         text-align: center;
     }
 
-    .nav-left ul{
+    .nav-left ul {
         margin: 0 13px;
     }
 
-    .nav-left ul li{
+    .nav-left ul li {
         font-size: 15px;
         margin: 0 10px;
-        
+
     }
 
-    .main-content-home{
+    .main-content-home {
         height: 275px;
     }
 
-    .tagline{
+    .tagline {
         width: 100vw;
         padding-left: 15px;
         padding-top: 25px;
     }
 
-    .tagline h1{
+    .tagline h1 {
         font-size: 40px;
     }
 
-    .tagline p{
+    .tagline p {
         font-size: 20px;
     }
 
-    .tagline button{
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 15px;
+    .tagline button {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 15px;
     }
 
-    .home-image{
+    .home-image {
         display: none;
     }
 
-    .home-articles{
+    .home-articles {
         padding-left: 0px;
         padding-top: 20px;
     }
 
-    .articles h1{
+    .articles h1 {
         font-size: 20px;
     }
 
-    .home-article{
+    .home-article {
         flex-direction: column;
         padding: 15px;
     }
 
-    .home-article-content{
+    .home-article-content {
         padding-left: 0px;
         padding-top: 7px;
     }
 
-    .footer a{
-    font-size: 10px;
+    .footer a {
+        font-size: 10px;
+    }
+    
+    .instagram a img {
+        height: 23px;
+        padding-right: 7px;
     }
 
-    .instagram a img{
-    height: 23px;
-    padding-right: 7px;
+    #text{
+        width: 250px;
     }
-} 
 
-@media screen and (max-width: 281px){
-    .logo{
+    #contact-h1{
+        font-size: 28px;
+    }
+}
+
+
+
+@media screen and (max-width: 285px) {
+    .logo {
         font-size: 30px;
         text-shadow: 2px 2px black;
     }
 
-    .nav-left ul{
+    .nav-left ul {
         margin: 0px;
     }
 
-    .nav-left ul li{
+    .nav-left ul li {
         font-size: 15px;
         margin: 0 8px;
     }
 
-    .form-input{
+    .form-input {
         width: 120px;
         font-size: 11px;
     }
 
-    .btn{
+    .btn {
         font-size: 11px;
         width: 45px;
         padding-left: 5px;
     }
 
-    #remove-for-fold{
+    #remove-for-fold {
         display: none;
     }
 
-    .footer a{
+    .footer a {
         font-size: 14px;
     }
-}
 
+    .socials a img{
+        height: 20px;
+    }
+
+    #text{
+        width: 240px;
+    }
+}
