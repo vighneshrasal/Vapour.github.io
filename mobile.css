@@ -107,6 +107,7 @@
     .heading{
         padding: 0px;
         padding-top: 25px;
+        border: none;
     }
     
     .heading h1{
