@@ -94,9 +94,56 @@
         width: 250px;
     }
 
-    #contact-h1{
-        font-size: 28px;
+    .about-para{
+        flex-direction: column;
     }
+
+    .about-vapour p{
+        height: auto; width: auto;
+        border: none;
+        padding-top: 30px; padding-bottom: 60px; padding-left: 50px; padding-right: 50px;
+    }
+
+    .heading{
+        padding: 0px;
+        padding-top: 25px;
+    }
+    
+    .heading h1{
+        font-size: 40px;
+        filter: drop-shadow(2px 2px rgb(31, 31, 31));
+        padding-top: 10px;
+    }
+
+    .about-creator h3{
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
+    .creator-pic{
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .creator-pic img{
+        width: 200px;
+    }
+
+    #creator-name{
+        font-size: 20px;
+        padding-left: 40px;
+    }
+
+    #creator-info{
+        padding-left: 40px;
+    }
+
+    .creator-socials{
+        padding-left: 40px;
+        margin-bottom: 10px;
+    }
+
 }
 
 
@@ -141,5 +188,11 @@
 
     #text{
         width: 240px;
+    }
+
+    .heading h1{
+        font-size: 33px;
+        filter: drop-shadow(2px 2px rgb(31, 31, 31));
+        padding-top: 10px;
     }
 }
