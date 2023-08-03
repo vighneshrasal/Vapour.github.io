@@ -102,6 +102,7 @@
         height: auto; width: auto;
         border: none;
         padding-top: 30px; padding-bottom: 60px; padding-left: 50px; padding-right: 50px;
+        font-size: 23px;
     }
 
     .heading{
@@ -153,6 +154,57 @@
         padding-bottom: 20px;
     }
 
+    .articles{
+        flex-direction: column;
+    }
+
+    .font1 h1{
+        font-size: 35px;
+        display: flex;
+        text-align: left;
+    }
+
+    .font2 p{
+        font-size: 10px;
+    }
+
+    #margin-for-phone{
+        margin: auto;
+    }
+
+    .blog-post-content p{
+        font-size: 20px;
+        width: 60vw;
+    }
+
+    .features h1{
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .author{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #author-name{
+        font-size: 18px;
+    }
+
+    .profile-description{
+        flex-direction: column;
+    }
+
+    .insta-linked{
+        margin-top: 10px;
+    }
+
+    .author-socials a img{
+        height: 22px;
+        padding-right: 15px;
+    }
 }
 
 
@@ -203,5 +255,9 @@
         font-size: 33px;
         filter: drop-shadow(2px 2px rgb(31, 31, 31));
         padding-top: 10px;
+    }
+
+    .font2 p{
+        font-size: 18px;
     }
 }
